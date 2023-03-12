@@ -1,7 +1,6 @@
 # Predictive-Personas
-Paper: A Simple Guideline to Create Predictive Personas for Target Marketing
+A Simple Guideline to Create Predictive Personas for Target Marketing
 
-## Data Description
 
 ## Instruction for running RapidMiner
 | Software Information
@@ -10,7 +9,21 @@ Paper: A Simple Guideline to Create Predictive Personas for Target Marketing
 - Link: https://rapidminer.com/
 
 | Instruction
-1. Import data
-2. Check/Select attributes #Important attributes used to train the model
-3. Import process file
-4. Change the data source to the import data
+
+Step 1. Import data
+1. Click **Import Data** from the Repository panel.
+
+Step 2. Import process file
+1. Click **File>Import Process**.
+2. Open the process file(s) from the Repository panel and click the **Retrieve** step from the Process panel.
+
+Step 3. Run the prediction process
+1. Change the data source to import one through the **Parameters panel**.
+2. Click **"Run button ▶"** to run the process and view the result.
+
+## Data Description
+
+Predictors (Attributes): q1 to q32 (except q27, q27_binary, q33)
+Outcome variable (Label): q27_binary
+
+> To get further explanation of each attribute, please view "Data Description.xslx".
