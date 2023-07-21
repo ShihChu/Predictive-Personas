@@ -21,10 +21,10 @@ Step 3. Run the prediction process
 1. Change the data source to import one through the **Parameters panel**.
 2. Click **"Run button ▶"** to run the process and view the result.
 
-## Data Description
+## Data description
 
 Predictors (Attributes): q1 to q32 (except q27, q27_binary, q33) 
 
 Outcome variable (Label): q27_binary
 
-> To get further explanation of each attribute, please view "Data Description.xslx".
+> To get further explanation of each attribute, please view "Data description.xslx".
